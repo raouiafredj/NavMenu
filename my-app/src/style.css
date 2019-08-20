@@ -1,0 +1,53 @@
+.nav-item {
+    color: black;
+    margin: 5px 10px;
+    text-decoration: none;
+    
+    display:flex;
+    justify-content: space-around;
+   
+
+  }
+  
+ 
+
+  .nav-item1 {
+padding: 10px;
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+      cursor: pointer;
+     position: relative;
+     color: black;
+     
+
+  }
+  .nav-item:hover  .nav-item1{
+
+    color: blue;
+  }
+
+  .nav-item2{
+
+   padding: 70px;
+   list-style-type: none;
+   cursor: pointer;
+   display: none;
+   position: absolute;
+   margin-left: 22px;
+   border-bottom: 1px solid grey;
+   
+
+  }
+  .nav-item:hover .nav-item2{
+
+    display: block;
+   
+    
+    }
+ 
+    .navbar{
+    display: flex;
+    justify-content: center;
+    
+    }
